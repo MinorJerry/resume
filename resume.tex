@@ -1,10 +1,11 @@
 % !TEX program = xelatex
-
 \documentclass{resume}
+\usepackage{setspace}
 %\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
 %\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
 
 \begin{document}
+
 \pagenumbering{gobble} % suppress displaying page number
 
 \name{Hongliang He}
@@ -15,37 +16,49 @@
   }
 
 \section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Shanghai Jiao Tong University (SJTU)}, Shanghai, China}{2013 -- Present}
-\textit{Master student} in Electronics Engineering (EE), expected March 2016
-\datedsubsection{\textbf{Xidian University}, Shaanxi, China}{2009 -- 2013}
-\textit{B.S.} in Electronics Engineering (EE)
+\datedsubsection{\textbf{Zhejiang University (ZJU), Hangzhou, China}}{Sept. 2016 -- Present} 
+Major in Interdisciplinary Innovation Platform (Computer Science and Technology \& Control) 
+
+\textbf{Chu Kochen Honors College} \hfill Overall GPA: 3.67/4.0\\
+Core Courses:\\
+Computer Vision (5.0/5.0) \hfill Fundamentals of Programming (4.8/5.0)\\
+Probability Theory and Mathematical Statistics (4.8/5.0) \hfill Data Analysis and System Identification (4.8/5.0)\\
+Technology and Strengthening Practice of Wheeled Robot (4.8/5.0)\hfill Artificial Intelligence (4.5/5.0)
 
 \section{\faUsers\ Experience}
-\datedsubsection{\textbf{FLAG Inc.} California, America}{2012 -- Present}
-\role{Summer Intern}{Manager: xxx}
-Brief introduction: xxx.
+\datedsubsection{\textbf{Return Points and Battery Replacement Strategy for E-BIKE }}{ Mar. 2018 -- May 2018}
+\role{MATLAB, Windows}{Mathematical modeling, Group Leader \& Programmer}
+Responsibility: 
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+  \item Implemented the gradient descent algorithm and found the optimal return point in the grid map;
+  \item Implemented a model and calculate the battery replacement frequency.
 \end{itemize}
 
-\datedsubsection{\textbf{xxx Projects}}{Jan. 2015 -- Present}
-\role{C, Python, Django, Linux}{Individual Projects, collaborated with xxx}
-Brief introduction: xxx
+\datedsubsection{\textbf{Mobile Robot Navigation and Obstacles Avoidance}}{ Sept. 2018 -- Jun. 2019}
+\role{Python, C++, Linux}{Individual Project, collaborated with a classmate}
+Responsibility: 
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+  \item Early-work: traditional heuristic search algorithms (A*, RRT...) were implemented on small soccer robots;
+  \item Mid-term: Implementing reinforcement learning algorithms (value-based methods and policy gradients);
+  \item Post-work: Compared traditional algorithms with RL algorithms and formed an English paper.
 \end{itemize}
 
-\datedsubsection{\textbf{\LaTeX\ résumé template}}{May. 2015 -- Present}
-\role{\LaTeX, Maintainer}{Individual Projects}
-An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
+\datedsubsection{\textbf{Chinese Chatbot based on Seq2Seq and Knowledge}}{Mar. 2019 -- Jun. 2019}
+\role{Python, MySQL, Windows}{Individual Project, collaborated with a classmate}
+Responsibility: 
 \begin{itemize}
-  \item Easy to be further customized or extended
-  \item Full support for unicode characters (e.g. CJK) with \XeLaTeX\
-  \item FontAwesome 4.5.0 support
+  \item Implemented Seq2Seq model with Pytorch;
+  \item The way to get answers from database according to the input questions;
+  \item A Python-Spider used to get corpus. 
+\end{itemize}
+
+\datedsubsection{\textbf{MAML with Natural Gradient Adaptation}}{Jun. 2019 -- Present}
+\role{Python}{Scientific Research Training, idea from Dr. Zebang Shen}
+\textit{Supervised by Prof. Hui Qian, Artificial Intelligence Laboratory, Zhejiang University}\\
+Responsibility: 
+\begin{itemize}
+  \item Learning Reinforcement Learning concepts and algorithms.
+  \item I'm now doing experiments (tensorflow) of \textit{ Model-Agnostic Meta-Learning with Natural Gradient Adaption}.
 \end{itemize}
 
 % Reference Test
@@ -57,20 +70,16 @@ An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
 
 \section{\faCogs\ Skills}
 \begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: C == Python > C++ > Java
-  \item Platform: Linux
-  \item Development: Web, xxx
+  \item Programming Languages: C/C++, Python, MATLAB
 \end{itemize}
 
 \section{\faHeartO\ Honors and Awards}
-\datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
-\datedline{Other awards}{2015}
-
+\datedline{\textit{Academic Third-Class Scholarship} Award by Zhejiang University }{2017 \& 2018}
+\datedline{\textit{The Second Place of Taekwondo Competition 72kg} Award by Zhejiang University}{2017}
+\datedline{\textit{Rank 13(top 7\%) in Zhejiang University ACTF Cyber Security Competition}}{2019}
 \section{\faInfo\ Miscellaneous}
 \begin{itemize}[parsep=0.5ex]
-  \item Blog: http://your.blog.me
-  \item GitHub: https://github.com/username
-  \item Languages: English - Fluent, Mandarin - Native speaker
+  \item GitHub: https://github.com/MinorJerry
 \end{itemize}
 
 %% Reference
